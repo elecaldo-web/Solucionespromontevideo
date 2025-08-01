@@ -1,117 +1,73 @@
+##### This is an exapmle of a company website. It's fully responsive, modern and open source.
+# <a target="_blank" href="https://darkleas.github.io/company-website-reactjs/">Demo Link</a>
+# Lets see what we have in the website:
+![alt text](companywebsitegif.gif)
+# Getting Started with Create React App
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Soluciones ProMontevideo</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #f5f5f5;
-      color: #333;
-    }
+## Available Scripts
 
-    header {
-      background-color: #003366;
-      color: white;
-      padding: 20px 0;
-      text-align: center;
-    }
+In the project directory, you can run:
 
-    nav {
-      background-color: #0055a5;
-      display: flex;
-      justify-content: center;
-      padding: 10px;
-    }
+### `npm start`
 
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-    nav a:hover {
-      text-decoration: underline;
-    }
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
+### `npm test`
 
-    h2 {
-      color: #003366;
-    }
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-    .services ul {
-      list-style: none;
-      padding: 0;
-    }
+### `npm run build`
 
-    .services li {
-      background-color: #e0e0e0;
-      margin: 10px 0;
-      padding: 15px;
-      border-left: 5px solid #0055a5;
-    }
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-    footer {
-      background-color: #003366;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-    }
-  </style>
-</head>
-<body>
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-  <header>
-    <h1>Soluciones ProMontevideo</h1>
-    <p>Electricidad • Pintura • Yeso</p>
-  </header>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-  <nav>
-    <a href="#inicio">Inicio</a>
-    <a href="#servicios">Servicios</a>
-    <a href="#nosotros">Nosotros</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
+### `npm run eject`
 
-  <section id="inicio">
-    <h2>Bienvenido</h2>
-    <p>Ofrecemos servicios profesionales de electricidad, pintura y yeso en Montevideo. Nuestro compromiso es brindar soluciones rápidas, seguras y de alta calidad para tu hogar o negocio.</p>
-  </section>
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-  <section id="servicios" class="services">
-    <h2>Servicios</h2>
-    <ul>
-      <li><strong>Electricidad:</strong> Instalaciones nuevas, reparaciones, mantenimiento general, tableros y más.</li>
-      <li><strong>Pintura:</strong> Interior y exterior, fachadas, trabajos decorativos y renovación de espacios.</li>
-      <li><strong>Yeso:</strong> Cielorrasos, divisiones, revestimientos y detalles en yeso/pladur.</li>
-    </ul>
-  </section>
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-  <section id="nosotros">
-    <h2>Sobre Nosotros</h2>
-    <p>Somos un equipo con más de 10 años de experiencia en el rubro de la construcción y mantenimiento. Nos caracterizamos por la puntualidad, responsabilidad y atención personalizada en cada proyecto.</p>
-  </section>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>📍 Montevideo, Uruguay</p>
-    <p>📞 Teléfono: 099 000 000</p>
-    <p>📧 Email: contacto@solucionespromontevideo.com</p>
-    <p>📲 WhatsApp: <a href="https://wa.me/59899000000" target="_blank">Envíanos un mensaje</a></p>
-  </section>
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-  <footer>
-    <p>&copy; 2025 Soluciones ProMontevideo - Todos los derechos reservados.</p>
-  </footer>
+## Learn More
 
-</body>
-</html>
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
